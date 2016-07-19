@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		748EDC741D3DCC0B008F0D48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 748EDC731D3DCC0B008F0D48 /* main.m */; };
+		748EDC771D3DCC0B008F0D48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 748EDC761D3DCC0B008F0D48 /* AppDelegate.m */; };
+		748EDC7A1D3DCC0B008F0D48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748EDC791D3DCC0B008F0D48 /* ViewController.m */; };
+		748EDC7D1D3DCC0B008F0D48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748EDC7B1D3DCC0B008F0D48 /* Main.storyboard */; };
+		748EDC7F1D3DCC0B008F0D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748EDC7E1D3DCC0B008F0D48 /* Assets.xcassets */; };
+		748EDC821D3DCC0B008F0D48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748EDC801D3DCC0B008F0D48 /* LaunchScreen.storyboard */; };
+		748EDC8D1D3DCC0B008F0D48 /* CustomLogSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 748EDC8C1D3DCC0B008F0D48 /* CustomLogSwitchTests.m */; };
+		748EDC981D3DCC0B008F0D48 /* CustomLogSwitchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 748EDC971D3DCC0B008F0D48 /* CustomLogSwitchUITests.m */; };
+		748EDCA81D3DCC3F008F0D48 /* customLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 748EDCA71D3DCC3F008F0D48 /* customLog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		748EDC891D3DCC0B008F0D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 748EDC671D3DCC0B008F0D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 748EDC6E1D3DCC0B008F0D48;
+			remoteInfo = CustomLogSwitch;
+		};
+		748EDC941D3DCC0B008F0D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 748EDC671D3DCC0B008F0D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 748EDC6E1D3DCC0B008F0D48;
+			remoteInfo = CustomLogSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		748EDC6F1D3DCC0B008F0D48 /* CustomLogSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomLogSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		748EDC731D3DCC0B008F0D48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		748EDC751D3DCC0B008F0D48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		748EDC761D3DCC0B008F0D48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		748EDC781D3DCC0B008F0D48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		748EDC791D3DCC0B008F0D48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		748EDC7C1D3DCC0B008F0D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		748EDC7E1D3DCC0B008F0D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		748EDC811D3DCC0B008F0D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		748EDC831D3DCC0B008F0D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		748EDC881D3DCC0B008F0D48 /* CustomLogSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomLogSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		748EDC8C1D3DCC0B008F0D48 /* CustomLogSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomLogSwitchTests.m; sourceTree = "<group>"; };
+		748EDC8E1D3DCC0B008F0D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		748EDC931D3DCC0B008F0D48 /* CustomLogSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomLogSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		748EDC971D3DCC0B008F0D48 /* CustomLogSwitchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomLogSwitchUITests.m; sourceTree = "<group>"; };
+		748EDC991D3DCC0B008F0D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		748EDCA51D3DCC1E008F0D48 /* const.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = const.h; sourceTree = "<group>"; };
+		748EDCA61D3DCC3F008F0D48 /* customLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customLog.h; sourceTree = "<group>"; };
+		748EDCA71D3DCC3F008F0D48 /* customLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customLog.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		748EDC6C1D3DCC0B008F0D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		748EDC851D3DCC0B008F0D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		748EDC901D3DCC0B008F0D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		748EDC661D3DCC0B008F0D48 = {
+			isa = PBXGroup;
+			children = (
+				748EDC711D3DCC0B008F0D48 /* CustomLogSwitch */,
+				748EDC8B1D3DCC0B008F0D48 /* CustomLogSwitchTests */,
+				748EDC961D3DCC0B008F0D48 /* CustomLogSwitchUITests */,
+				748EDC701D3DCC0B008F0D48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		748EDC701D3DCC0B008F0D48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				748EDC6F1D3DCC0B008F0D48 /* CustomLogSwitch.app */,
+				748EDC881D3DCC0B008F0D48 /* CustomLogSwitchTests.xctest */,
+				748EDC931D3DCC0B008F0D48 /* CustomLogSwitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		748EDC711D3DCC0B008F0D48 /* CustomLogSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				748EDC751D3DCC0B008F0D48 /* AppDelegate.h */,
+				748EDC761D3DCC0B008F0D48 /* AppDelegate.m */,
+				748EDC781D3DCC0B008F0D48 /* ViewController.h */,
+				748EDC791D3DCC0B008F0D48 /* ViewController.m */,
+				748EDCA51D3DCC1E008F0D48 /* const.h */,
+				748EDCA61D3DCC3F008F0D48 /* customLog.h */,
+				748EDCA71D3DCC3F008F0D48 /* customLog.m */,
+				748EDC7B1D3DCC0B008F0D48 /* Main.storyboard */,
+				748EDC7E1D3DCC0B008F0D48 /* Assets.xcassets */,
+				748EDC801D3DCC0B008F0D48 /* LaunchScreen.storyboard */,
+				748EDC831D3DCC0B008F0D48 /* Info.plist */,
+				748EDC721D3DCC0B008F0D48 /* Supporting Files */,
+			);
+			path = CustomLogSwitch;
+			sourceTree = "<group>";
+		};
+		748EDC721D3DCC0B008F0D48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				748EDC731D3DCC0B008F0D48 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		748EDC8B1D3DCC0B008F0D48 /* CustomLogSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				748EDC8C1D3DCC0B008F0D48 /* CustomLogSwitchTests.m */,
+				748EDC8E1D3DCC0B008F0D48 /* Info.plist */,
+			);
+			path = CustomLogSwitchTests;
+			sourceTree = "<group>";
+		};
+		748EDC961D3DCC0B008F0D48 /* CustomLogSwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				748EDC971D3DCC0B008F0D48 /* CustomLogSwitchUITests.m */,
+				748EDC991D3DCC0B008F0D48 /* Info.plist */,
+			);
+			path = CustomLogSwitchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		748EDC6E1D3DCC0B008F0D48 /* CustomLogSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 748EDC9C1D3DCC0B008F0D48 /* Build configuration list for PBXNativeTarget "CustomLogSwitch" */;
+			buildPhases = (
+				748EDC6B1D3DCC0B008F0D48 /* Sources */,
+				748EDC6C1D3DCC0B008F0D48 /* Frameworks */,
+				748EDC6D1D3DCC0B008F0D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomLogSwitch;
+			productName = CustomLogSwitch;
+			productReference = 748EDC6F1D3DCC0B008F0D48 /* CustomLogSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		748EDC871D3DCC0B008F0D48 /* CustomLogSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 748EDC9F1D3DCC0B008F0D48 /* Build configuration list for PBXNativeTarget "CustomLogSwitchTests" */;
+			buildPhases = (
+				748EDC841D3DCC0B008F0D48 /* Sources */,
+				748EDC851D3DCC0B008F0D48 /* Frameworks */,
+				748EDC861D3DCC0B008F0D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				748EDC8A1D3DCC0B008F0D48 /* PBXTargetDependency */,
+			);
+			name = CustomLogSwitchTests;
+			productName = CustomLogSwitchTests;
+			productReference = 748EDC881D3DCC0B008F0D48 /* CustomLogSwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		748EDC921D3DCC0B008F0D48 /* CustomLogSwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 748EDCA21D3DCC0B008F0D48 /* Build configuration list for PBXNativeTarget "CustomLogSwitchUITests" */;
+			buildPhases = (
+				748EDC8F1D3DCC0B008F0D48 /* Sources */,
+				748EDC901D3DCC0B008F0D48 /* Frameworks */,
+				748EDC911D3DCC0B008F0D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				748EDC951D3DCC0B008F0D48 /* PBXTargetDependency */,
+			);
+			name = CustomLogSwitchUITests;
+			productName = CustomLogSwitchUITests;
+			productReference = 748EDC931D3DCC0B008F0D48 /* CustomLogSwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		748EDC671D3DCC0B008F0D48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = __zimu;
+				TargetAttributes = {
+					748EDC6E1D3DCC0B008F0D48 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					748EDC871D3DCC0B008F0D48 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 748EDC6E1D3DCC0B008F0D48;
+					};
+					748EDC921D3DCC0B008F0D48 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 748EDC6E1D3DCC0B008F0D48;
+					};
+				};
+			};
+			buildConfigurationList = 748EDC6A1D3DCC0B008F0D48 /* Build configuration list for PBXProject "CustomLogSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 748EDC661D3DCC0B008F0D48;
+			productRefGroup = 748EDC701D3DCC0B008F0D48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				748EDC6E1D3DCC0B008F0D48 /* CustomLogSwitch */,
+				748EDC871D3DCC0B008F0D48 /* CustomLogSwitchTests */,
+				748EDC921D3DCC0B008F0D48 /* CustomLogSwitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		748EDC6D1D3DCC0B008F0D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748EDC821D3DCC0B008F0D48 /* LaunchScreen.storyboard in Resources */,
+				748EDC7F1D3DCC0B008F0D48 /* Assets.xcassets in Resources */,
+				748EDC7D1D3DCC0B008F0D48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		748EDC861D3DCC0B008F0D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		748EDC911D3DCC0B008F0D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		748EDC6B1D3DCC0B008F0D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748EDC7A1D3DCC0B008F0D48 /* ViewController.m in Sources */,
+				748EDC771D3DCC0B008F0D48 /* AppDelegate.m in Sources */,
+				748EDC741D3DCC0B008F0D48 /* main.m in Sources */,
+				748EDCA81D3DCC3F008F0D48 /* customLog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		748EDC841D3DCC0B008F0D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748EDC8D1D3DCC0B008F0D48 /* CustomLogSwitchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		748EDC8F1D3DCC0B008F0D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748EDC981D3DCC0B008F0D48 /* CustomLogSwitchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		748EDC8A1D3DCC0B008F0D48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 748EDC6E1D3DCC0B008F0D48 /* CustomLogSwitch */;
+			targetProxy = 748EDC891D3DCC0B008F0D48 /* PBXContainerItemProxy */;
+		};
+		748EDC951D3DCC0B008F0D48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 748EDC6E1D3DCC0B008F0D48 /* CustomLogSwitch */;
+			targetProxy = 748EDC941D3DCC0B008F0D48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		748EDC7B1D3DCC0B008F0D48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				748EDC7C1D3DCC0B008F0D48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		748EDC801D3DCC0B008F0D48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				748EDC811D3DCC0B008F0D48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		748EDC9A1D3DCC0B008F0D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		748EDC9B1D3DCC0B008F0D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		748EDC9D1D3DCC0B008F0D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomLogSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ablecloud.CustomLogSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		748EDC9E1D3DCC0B008F0D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomLogSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ablecloud.CustomLogSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		748EDCA01D3DCC0B008F0D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CustomLogSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ablecloud.CustomLogSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomLogSwitch.app/CustomLogSwitch";
+			};
+			name = Debug;
+		};
+		748EDCA11D3DCC0B008F0D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CustomLogSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ablecloud.CustomLogSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomLogSwitch.app/CustomLogSwitch";
+			};
+			name = Release;
+		};
+		748EDCA31D3DCC0B008F0D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CustomLogSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ablecloud.CustomLogSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CustomLogSwitch;
+			};
+			name = Debug;
+		};
+		748EDCA41D3DCC0B008F0D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CustomLogSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ablecloud.CustomLogSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CustomLogSwitch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		748EDC6A1D3DCC0B008F0D48 /* Build configuration list for PBXProject "CustomLogSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				748EDC9A1D3DCC0B008F0D48 /* Debug */,
+				748EDC9B1D3DCC0B008F0D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		748EDC9C1D3DCC0B008F0D48 /* Build configuration list for PBXNativeTarget "CustomLogSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				748EDC9D1D3DCC0B008F0D48 /* Debug */,
+				748EDC9E1D3DCC0B008F0D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		748EDC9F1D3DCC0B008F0D48 /* Build configuration list for PBXNativeTarget "CustomLogSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				748EDCA01D3DCC0B008F0D48 /* Debug */,
+				748EDCA11D3DCC0B008F0D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		748EDCA21D3DCC0B008F0D48 /* Build configuration list for PBXNativeTarget "CustomLogSwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				748EDCA31D3DCC0B008F0D48 /* Debug */,
+				748EDCA41D3DCC0B008F0D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 748EDC671D3DCC0B008F0D48 /* Project object */;
+}
