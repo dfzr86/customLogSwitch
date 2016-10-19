@@ -23,7 +23,7 @@
     HNXLog(@"自定义打印");
     HNXLog(@"自定义打印");
     //打开自定义打印开关
-    [customLog setLogEnabled:YES];
+    [CustomLog setLogEnabled:YES];
     HNXLog(@"自定义打印");
     HNXLog(@"自定义打印");
     

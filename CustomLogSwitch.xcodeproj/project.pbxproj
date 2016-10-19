@@ -15,7 +15,7 @@
 		748EDC821D3DCC0B008F0D48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748EDC801D3DCC0B008F0D48 /* LaunchScreen.storyboard */; };
 		748EDC8D1D3DCC0B008F0D48 /* CustomLogSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 748EDC8C1D3DCC0B008F0D48 /* CustomLogSwitchTests.m */; };
 		748EDC981D3DCC0B008F0D48 /* CustomLogSwitchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 748EDC971D3DCC0B008F0D48 /* CustomLogSwitchUITests.m */; };
-		748EDCA81D3DCC3F008F0D48 /* customLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 748EDCA71D3DCC3F008F0D48 /* customLog.m */; };
+		748EDCA81D3DCC3F008F0D48 /* CustomLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 748EDCA71D3DCC3F008F0D48 /* CustomLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +53,8 @@
 		748EDC971D3DCC0B008F0D48 /* CustomLogSwitchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomLogSwitchUITests.m; sourceTree = "<group>"; };
 		748EDC991D3DCC0B008F0D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		748EDCA51D3DCC1E008F0D48 /* const.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = const.h; sourceTree = "<group>"; };
-		748EDCA61D3DCC3F008F0D48 /* customLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customLog.h; sourceTree = "<group>"; };
-		748EDCA71D3DCC3F008F0D48 /* customLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customLog.m; sourceTree = "<group>"; };
+		748EDCA61D3DCC3F008F0D48 /* CustomLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLog.h; sourceTree = "<group>"; };
+		748EDCA71D3DCC3F008F0D48 /* CustomLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +110,8 @@
 				748EDC781D3DCC0B008F0D48 /* ViewController.h */,
 				748EDC791D3DCC0B008F0D48 /* ViewController.m */,
 				748EDCA51D3DCC1E008F0D48 /* const.h */,
-				748EDCA61D3DCC3F008F0D48 /* customLog.h */,
-				748EDCA71D3DCC3F008F0D48 /* customLog.m */,
+				748EDCA61D3DCC3F008F0D48 /* CustomLog.h */,
+				748EDCA71D3DCC3F008F0D48 /* CustomLog.m */,
 				748EDC7B1D3DCC0B008F0D48 /* Main.storyboard */,
 				748EDC7E1D3DCC0B008F0D48 /* Assets.xcassets */,
 				748EDC801D3DCC0B008F0D48 /* LaunchScreen.storyboard */,
@@ -280,7 +280,7 @@
 				748EDC7A1D3DCC0B008F0D48 /* ViewController.m in Sources */,
 				748EDC771D3DCC0B008F0D48 /* AppDelegate.m in Sources */,
 				748EDC741D3DCC0B008F0D48 /* main.m in Sources */,
-				748EDCA81D3DCC3F008F0D48 /* customLog.m in Sources */,
+				748EDCA81D3DCC3F008F0D48 /* CustomLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +506,7 @@
 				748EDC9E1D3DCC0B008F0D48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		748EDC9F1D3DCC0B008F0D48 /* Build configuration list for PBXNativeTarget "CustomLogSwitchTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +515,7 @@
 				748EDCA11D3DCC0B008F0D48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		748EDCA21D3DCC0B008F0D48 /* Build configuration list for PBXNativeTarget "CustomLogSwitchUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +524,7 @@
 				748EDCA41D3DCC0B008F0D48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

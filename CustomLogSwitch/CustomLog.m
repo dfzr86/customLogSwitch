@@ -10,7 +10,7 @@
 
 static BOOL HNX_Log_Switch = NO;
 
-@implementation customLog
+@implementation CustomLog
 
 
 #pragma mark - 自定义打印开关

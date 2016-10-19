@@ -11,7 +11,7 @@
 
 //自定义打印
 #define HNXLog(format, ...) {\
-if ([customLog logEnable]) {\
+if ([CustomLog logEnable]) {\
 NSLog(@"[HNX]: %s():%d " format, __func__, __LINE__, ##__VA_ARGS__);\
 }\
 }\
